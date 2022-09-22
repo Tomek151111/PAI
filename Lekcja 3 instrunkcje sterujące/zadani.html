@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <head>
+        <title>PAI</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+         a=22
+        
+            ocena=0
+            if(a > 0 && a < 39) {
+                ocena=1
+            }
+            if(a > 40 && a < 54) {
+                ocena=2
+            }
+            if(a > 55 && a < 69) {
+                ocena=3
+            }
+            if(a > 70 && a < 84) {
+                ocena=4
+            }
+            if(a > 85 && a < 94) {
+                ocena=5
+            }
+            if(a > 95 && a < 100) {
+                ocena=6
+            }
+
+            switch(ocena)
+            {
+                case 1:
+                    document.write("Otrzymałeś ocene 1")
+                    break
+                case 2:
+                    document.write("Otrzymałeś ocene 2")
+                    break
+                case 3:
+                    document.write("Otrzymałeś ocene 3")
+                    break
+                case 4:
+                    document.write("Otrzymałeś ocene 4")
+                    break
+                case 5:
+                    document.write("Otrzymałeś ocene 5")
+                    break
+                case 6:
+                    document.write("Otrzymałeś ocene 6")
+                    break
+            }
+        </script>
+    </body>
+</html>
