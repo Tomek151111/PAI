@@ -1,0 +1,25 @@
+<head>
+    <title>PAI</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    
+    <input type="text" id="login">
+    <input type="password" id="haslo">
+    
+    <button onclick="display()">Wyślij</button>
+    
+    <p id="login"> ... </p>
+    <p id="haslo"> ... </p>
+
+    <script type="text/javascript">
+        function display() {
+            var napis = document.getElementById("haslo").value;
+            var napis = document.getElementById("login").value;
+            document.getElementById("login").textContent = napis;
+            document.getElementById("haslo").textContent = napis;
+        }
+        
+    </script>
+</body>
+</html>
