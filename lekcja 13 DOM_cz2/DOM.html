@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <p id ="p1" >zadanie</p>
+         
+        <button onclick="zmiana_koloru()">Zmiana koloru</button>
+        <button onclick="czcionka()">czcionka</button>
+        <button onclick="formatowanie()">usuń formatowanie</button>
+        
+
+        <p id ="p2">zadanie2</p>
+        <button onclick="zmiana_koloru2()">Zmiana koloru</button>
+        <button onclick="czcionka2()">czcionka</button>
+        <button onclick="formatowanie2()">usuń formatowanie</button>
+        
+        <script>
+        function zmiana_koloru() {
+            document.getElementById("p1").style.color = "red";
+        }
+
+        function zmiana_koloru2() {
+            document.getElementById("p2").style.color = "green";
+        }
+
+        function czcionka() {
+            document.getElementById("p1").style.fontWeight = "bold";
+        }
+
+        function czcionka2() {
+            document.getElementById("p2").style.fontWeight = "bolder";
+            ;
+        }
+
+        function formatowanie() {
+            document.getElementById("p1").style.fontWeight = "normal";
+        }
+
+        function formatowanie2() {
+            document.getElementById("p2").style.fontWeight = "normal";
+            
+        }
+           
+        </script>
+    </head>
+</html>
